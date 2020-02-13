@@ -1,9 +1,14 @@
-# 
-const leter = document.querySelectorAll('.zA');
+
+### Task 2
+
+```
+
+const letter = document.querySelectorAll('.zA');
 let b = 1;
-leter.forEach(item => {
+letter.forEach(item => {
   if(b%3 == 0){
     item.style.display = "none";
   }
   b++;
 })
+```
