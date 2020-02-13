@@ -6,11 +6,6 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* нижняя херня 880пх 
-отступы по бокам у формы регист по 60пх
-по высоте отступы по 20пх -25   title b05129 linkedin 007ab5 face 5378bc twit 36d0f7   pin 36d0f7 butt 5dbdb1
-
-*/
 .registration {
     margin: 0 auto;
     background-image: url('../background.jpeg');
