@@ -1,0 +1,168 @@
+:root {
+    --main-marginBottom: 20px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* нижняя херня 880пх 
+отступы по бокам у формы регист по 60пх
+по высоте отступы по 20пх -25   title b05129 linkedin 007ab5 face 5378bc twit 36d0f7   pin 36d0f7 butt 5dbdb1
+
+*/
+.registration {
+    margin: 0 auto;
+    background-image: url('../background.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    width: 880px;
+    margin: 0 auto;
+    padding: 40px 0 0;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: var(--main-marginBottom);
+    font-size: 3.5em;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #b05129;
+}
+
+.address {
+    margin-bottom: var(--main-marginBottom);
+    font-size: 1.3em;
+    color: #fff;
+}
+
+.society {
+    margin-bottom: var(--main-marginBottom);
+}
+
+.icons {
+    margin: 5px;
+    font-size: 1.3em;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.fa-facebook-f {
+    padding: 10px 17px;
+    background-color: #5378bc;
+}
+.fa-twitter {
+    padding: 10px 12px;
+    background-color: #36d0f7;
+}
+.fa-linkedin-in {
+    padding: 10px 14px;
+    background-color: #007ab5;
+}
+.fa-pinterest {
+     padding: 10px 12px;
+    background-color: #e6303a;
+}
+
+.subtitle {
+    margin-bottom: var(--main-marginBottom);
+    font-size: 2.5em;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: -0.8px; 
+    color: #b05129;
+}
+
+.description {
+    margin: 0 60px 30px;
+    font-style: italic;
+    line-height: 25px;
+    color: #fff;
+}
+
+.form {
+    display: flex;
+    margin: 0 60px 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-item {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20px;
+}
+
+.form-input {
+    width: 100%;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+.form-input::placeholder {
+    font-weight: 600;
+    color: #00000050;
+}
+
+.form-input:last-child {
+    margin-bottom: 0;
+}
+
+.form-textarea {
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    resize: none;
+    outline: none;
+}
+
+.form-textarea::placeholder {
+    font-weight: 600;
+    color: #00000050;
+}
+
+.form-submit {
+    margin: 30px 0;
+    padding: 14px 33px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #5dbdb1;
+}
+
+.form-submit:active {
+    box-shadow: 1px 2px 5px #fff;
+    outline: none;
+}
+
+.subline {
+    width: 100%;
+    border: 2px lightgrey dashed;
+    margin-bottom: var(--main-marginBottom);
+}
+
+.copyright {
+    margin-bottom: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.fa-arrow-up {
+    color: #fff;
+    font-size: 15px;    
+}
