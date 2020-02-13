@@ -2,7 +2,6 @@
 ### Task 2
 
 ```
-
 const letter = document.querySelectorAll('.zA');
 let b = 1;
 letter.forEach(item => {
